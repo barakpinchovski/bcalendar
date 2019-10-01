@@ -1,0 +1,16 @@
+.cal-period {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin-top: -5px;
+  width: calc(100% / 7);
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.cal-period:not(.current) {
+  display: none;
+}
